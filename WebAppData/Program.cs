@@ -10,7 +10,7 @@ namespace WebAppData
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
-            //commented
+            //commented one line
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
